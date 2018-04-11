@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		654D8E1D207D9F5800EF5B36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 654D8E1C207D9F5800EF5B36 /* main.m */; };
+		654D8E27207D9F5800EF5B36 /* Block___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 654D8E26207D9F5800EF5B36 /* Block___Tests.m */; };
+		654D8E32207D9F5800EF5B36 /* Block___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 654D8E31207D9F5800EF5B36 /* Block___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		654D8E23207D9F5800EF5B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654D8E02207D9F5800EF5B36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654D8E09207D9F5800EF5B36;
+			remoteInfo = "Block的实现";
+		};
+		654D8E2E207D9F5800EF5B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654D8E02207D9F5800EF5B36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654D8E09207D9F5800EF5B36;
+			remoteInfo = "Block的实现";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		654D8E0A207D9F5800EF5B36 /* Block的实现.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block的实现.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654D8E1B207D9F5800EF5B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654D8E1C207D9F5800EF5B36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		654D8E22207D9F5800EF5B36 /* Block的实现Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Block的实现Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654D8E26207D9F5800EF5B36 /* Block___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Block___Tests.m"; sourceTree = "<group>"; };
+		654D8E28207D9F5800EF5B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654D8E2D207D9F5800EF5B36 /* Block的实现UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Block的实现UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654D8E31207D9F5800EF5B36 /* Block___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Block___UITests.m"; sourceTree = "<group>"; };
+		654D8E33207D9F5800EF5B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654D8E07207D9F5800EF5B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654D8E1F207D9F5800EF5B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654D8E2A207D9F5800EF5B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		654D8E01207D9F5800EF5B36 = {
+			isa = PBXGroup;
+			children = (
+				654D8E0C207D9F5800EF5B36 /* Block的实现 */,
+				654D8E25207D9F5800EF5B36 /* Block的实现Tests */,
+				654D8E30207D9F5800EF5B36 /* Block的实现UITests */,
+				654D8E0B207D9F5800EF5B36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		654D8E0B207D9F5800EF5B36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654D8E0A207D9F5800EF5B36 /* Block的实现.app */,
+				654D8E22207D9F5800EF5B36 /* Block的实现Tests.xctest */,
+				654D8E2D207D9F5800EF5B36 /* Block的实现UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654D8E0C207D9F5800EF5B36 /* Block的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				654D8E1B207D9F5800EF5B36 /* Info.plist */,
+				654D8E1C207D9F5800EF5B36 /* main.m */,
+			);
+			path = "Block的实现";
+			sourceTree = "<group>";
+		};
+		654D8E25207D9F5800EF5B36 /* Block的实现Tests */ = {
+			isa = PBXGroup;
+			children = (
+				654D8E26207D9F5800EF5B36 /* Block___Tests.m */,
+				654D8E28207D9F5800EF5B36 /* Info.plist */,
+			);
+			path = "Block的实现Tests";
+			sourceTree = "<group>";
+		};
+		654D8E30207D9F5800EF5B36 /* Block的实现UITests */ = {
+			isa = PBXGroup;
+			children = (
+				654D8E31207D9F5800EF5B36 /* Block___UITests.m */,
+				654D8E33207D9F5800EF5B36 /* Info.plist */,
+			);
+			path = "Block的实现UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		654D8E09207D9F5800EF5B36 /* Block的实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654D8E36207D9F5800EF5B36 /* Build configuration list for PBXNativeTarget "Block的实现" */;
+			buildPhases = (
+				654D8E06207D9F5800EF5B36 /* Sources */,
+				654D8E07207D9F5800EF5B36 /* Frameworks */,
+				654D8E08207D9F5800EF5B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Block的实现";
+			productName = "Block的实现";
+			productReference = 654D8E0A207D9F5800EF5B36 /* Block的实现.app */;
+			productType = "com.apple.product-type.application";
+		};
+		654D8E21207D9F5800EF5B36 /* Block的实现Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654D8E39207D9F5800EF5B36 /* Build configuration list for PBXNativeTarget "Block的实现Tests" */;
+			buildPhases = (
+				654D8E1E207D9F5800EF5B36 /* Sources */,
+				654D8E1F207D9F5800EF5B36 /* Frameworks */,
+				654D8E20207D9F5800EF5B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654D8E24207D9F5800EF5B36 /* PBXTargetDependency */,
+			);
+			name = "Block的实现Tests";
+			productName = "Block的实现Tests";
+			productReference = 654D8E22207D9F5800EF5B36 /* Block的实现Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		654D8E2C207D9F5800EF5B36 /* Block的实现UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654D8E3C207D9F5800EF5B36 /* Build configuration list for PBXNativeTarget "Block的实现UITests" */;
+			buildPhases = (
+				654D8E29207D9F5800EF5B36 /* Sources */,
+				654D8E2A207D9F5800EF5B36 /* Frameworks */,
+				654D8E2B207D9F5800EF5B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654D8E2F207D9F5800EF5B36 /* PBXTargetDependency */,
+			);
+			name = "Block的实现UITests";
+			productName = "Block的实现UITests";
+			productReference = 654D8E2D207D9F5800EF5B36 /* Block的实现UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654D8E02207D9F5800EF5B36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "信达";
+				TargetAttributes = {
+					654D8E09207D9F5800EF5B36 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					654D8E21207D9F5800EF5B36 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 654D8E09207D9F5800EF5B36;
+					};
+					654D8E2C207D9F5800EF5B36 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 654D8E09207D9F5800EF5B36;
+					};
+				};
+			};
+			buildConfigurationList = 654D8E05207D9F5800EF5B36 /* Build configuration list for PBXProject "Block的实现" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 654D8E01207D9F5800EF5B36;
+			productRefGroup = 654D8E0B207D9F5800EF5B36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				654D8E09207D9F5800EF5B36 /* Block的实现 */,
+				654D8E21207D9F5800EF5B36 /* Block的实现Tests */,
+				654D8E2C207D9F5800EF5B36 /* Block的实现UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		654D8E08207D9F5800EF5B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654D8E20207D9F5800EF5B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654D8E2B207D9F5800EF5B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654D8E06207D9F5800EF5B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654D8E1D207D9F5800EF5B36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654D8E1E207D9F5800EF5B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654D8E27207D9F5800EF5B36 /* Block___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654D8E29207D9F5800EF5B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654D8E32207D9F5800EF5B36 /* Block___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		654D8E24207D9F5800EF5B36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654D8E09207D9F5800EF5B36 /* Block的实现 */;
+			targetProxy = 654D8E23207D9F5800EF5B36 /* PBXContainerItemProxy */;
+		};
+		654D8E2F207D9F5800EF5B36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654D8E09207D9F5800EF5B36 /* Block的实现 */;
+			targetProxy = 654D8E2E207D9F5800EF5B36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		654D8E34207D9F5800EF5B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		654D8E35207D9F5800EF5B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		654D8E37207D9F5800EF5B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PG59X4CHD;
+				INFOPLIST_FILE = "Block的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinda.Block---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		654D8E38207D9F5800EF5B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PG59X4CHD;
+				INFOPLIST_FILE = "Block的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinda.Block---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		654D8E3A207D9F5800EF5B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PG59X4CHD;
+				INFOPLIST_FILE = "Block的实现Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinda.Block---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Block的实现.app/Block的实现";
+			};
+			name = Debug;
+		};
+		654D8E3B207D9F5800EF5B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PG59X4CHD;
+				INFOPLIST_FILE = "Block的实现Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinda.Block---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Block的实现.app/Block的实现";
+			};
+			name = Release;
+		};
+		654D8E3D207D9F5800EF5B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PG59X4CHD;
+				INFOPLIST_FILE = "Block的实现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinda.Block---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Block的实现";
+			};
+			name = Debug;
+		};
+		654D8E3E207D9F5800EF5B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PG59X4CHD;
+				INFOPLIST_FILE = "Block的实现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinda.Block---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Block的实现";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		654D8E05207D9F5800EF5B36 /* Build configuration list for PBXProject "Block的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654D8E34207D9F5800EF5B36 /* Debug */,
+				654D8E35207D9F5800EF5B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654D8E36207D9F5800EF5B36 /* Build configuration list for PBXNativeTarget "Block的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654D8E37207D9F5800EF5B36 /* Debug */,
+				654D8E38207D9F5800EF5B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654D8E39207D9F5800EF5B36 /* Build configuration list for PBXNativeTarget "Block的实现Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654D8E3A207D9F5800EF5B36 /* Debug */,
+				654D8E3B207D9F5800EF5B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654D8E3C207D9F5800EF5B36 /* Build configuration list for PBXNativeTarget "Block的实现UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654D8E3D207D9F5800EF5B36 /* Debug */,
+				654D8E3E207D9F5800EF5B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654D8E02207D9F5800EF5B36 /* Project object */;
+}
